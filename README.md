@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋 SlavyanDesu!</h1>
 <h3 align="center">A newbie backend-programmer.</h3>
 
-- 🔭 I’m currently working on [Simple WhatsApp Bot](https://github.com/SlavyanDesu/simple-wa-bot)
-
 - 🌱 I’m currently learning **Node.js**
 
 - 📫 How to reach me **heikalsyahshiddiq@gmail.com**
