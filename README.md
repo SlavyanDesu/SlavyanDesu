@@ -1,5 +1,7 @@
 <h1 align="center">Yooo 👋 SlavyanDesu!</h1>
-<h3 align="center">A newbie backend-programmer.</h3>
+<h3 align="center">Welcome to my profile page~</h3>
+
+<div id="bannerImageContainer" style="line-height:0;"><img align="left" style="float:left;" src="https://www.osustuff.org/img/imageslice/2020-11-05/133229/724235.jpg"></img><br style="clear:both;"><img align="left" style="float:left;" src="https://www.osustuff.org/img/imageslice/2020-11-05/133229/724236.jpg"></img><a style="float:left;" href="https://github.com/slavyandesu"><img align="left" style="float:left;" src="https://www.osustuff.org/img/imageslice/2020-11-05/133229/724237.jpg"></img></a><img align="left" style="float:left;" src="https://www.osustuff.org/img/imageslice/2020-11-05/133229/724238.jpg"></img><br style="clear:both;"><img align="left" style="float:left;" src="https://www.osustuff.org/img/imageslice/2020-11-05/133229/724239.jpg"></img></div>
 
 - 🌱 I’m currently learning **Node.js**
 
@@ -10,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/slavyandesu"><img src="https://github-readme-stats.vercel.app/api?username=SlavyanDesu&hide_borders=true&show_icons=true"></a>
+  <a href="https://github.com/slavyandesu"><img src="https://github-readme-stats.vercel.app/api?username=SlavyanDesu&hide_border=true&show_icons=true"></a>
 </p>
 
 <p align="center">
