@@ -14,10 +14,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/slavyandesu"><img src="https://github-readme-stats.vercel.app/api?username=SlavyanDesu&hide_border=true&show_icons=true"/></a>
+  <a href="https://github.com/slavyandesu"><img src="https://github-readme-stats.vercel.app/api?username=SlavyanDesu&hide_border=true&show_icons=true" /></a>
 </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=slavyandesu&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="slavyandesu" /></p>
+<p align="center">
+  <a href="https://github.com/slavyandesu"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=slavyandesu&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="slavyandesu" /></a>
+</p>
 
 <p align="center"> <a href="https://twitter.com/sl_avyan" target="blank"><img src="https://img.shields.io/twitter/follow/sl_avyan?logo=twitter&style=for-the-badge" alt="sl_avyan" /></a></p>
 
