@@ -5,7 +5,7 @@
   <img src="https://www.osustuff.org/img/imageslice/2020-11-05/133230/724240.jpg" />
 </p>
 
-- 🌱 I’m currently learning **Node.js**
+- 🌱 I’m currently learning **Python**
 
 - 📫 How to reach me **heikalsyahshiddiq@gmail.com**
 
