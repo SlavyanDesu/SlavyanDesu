@@ -3,6 +3,9 @@
 
 <p align="center">
   <img src="https://s8.gifyu.com/images/minifesto-1.gif" />
+</p>
+
+<p align="center">
   <img src="https://www.osustuff.org/img/imageslice/2020-11-05/133230/724240.jpg" />
 </p>
 
