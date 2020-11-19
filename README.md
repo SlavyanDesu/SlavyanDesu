@@ -2,6 +2,7 @@
 <h5 align="center">Gamer | Weeb | Music enthusiast</h5>
 
 <p align="center">
+  <img src="https://s8.gifyu.com/images/minifesto-1.gif" />
   <img src="https://www.osustuff.org/img/imageslice/2020-11-05/133230/724240.jpg" />
 </p>
 
