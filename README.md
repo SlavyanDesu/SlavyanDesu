@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **Python**
 
-- 📫 How to reach me **heikalsyahshiddiq@gmail.com**
+- 📫 How to reach me **slavyan@secret.fyi**
 
 <p align="center">
   <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
