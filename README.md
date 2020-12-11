@@ -6,15 +6,30 @@
 </p>
 
 <p align="center">
+  <a href="https://instagram.com/rl_slavyan"><img src="https://img.shields.io/badge/-rl_slavyan-purple?style=flat-square&logo=instagram&logoColor=white&link=https://instagram.com/rl_slavyan/" /></a>
+  <a href="https://www.youtube.com/channel/UCg_NUppMwYKiGp23rjFMyEg"><img src="https://img.shields.io/badge/-Heikal%20Syah%20Shiddiq-darkred?style=flat-square&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UCg_NUppMwYKiGp23rjFMyEg/" /></a>
+  <a href="mailto:slavyan@secret.fyi"><img src="https://img.shields.io/badge/-slavyan@secret.fyi-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:slavyan@secret.fyi" /></a>
+</p>
+
+<p align="center">
   <img src="https://www.osustuff.org/img/imageslice/2020-11-05/133230/724240.jpg" />
 </p>
 
-- 🌱 I’m currently learning **Python**
+- 🌱 I’m currently learning **more JavaScript**
 
-- 📫 How to reach me **slavyan@secret.fyi**
+- 📝 I'm currently working on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
+
+- 👥 Searching for collaborators on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
 
 <p align="center">
-  <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
+  <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
+  <img src="https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js" />
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3"0 />
+  <img src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql" />
+  <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" />
+  <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" />
 </p>
 
 <p align="center">
@@ -25,10 +40,10 @@
   <a href="https://github.com/slavyandesu"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=slavyandesu&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="slavyandesu" /></a>
 </p>
 
-<p align="center"> <a href="https://twitter.com/sl_avyan" target="blank"><img src="https://img.shields.io/twitter/follow/sl_avyan?logo=twitter&style=for-the-badge" alt="sl_avyan" /></a></p>
+<p align="center">
+  <a href="https://twitter.com/sl_avyan"><img src="https://img.shields.io/twitter/follow/sl_avyan?logo=twitter&style=for-the-badge" alt="sl_avyan" /></a>
+</p>
 
 <p align="center">
-<a href="https://twitter.com/sl_avyan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="sl_avyan" height="30" width="30" /></a>
-<a href="https://fb.com/jazz.overdose" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="kal" height="30" width="30" /></a>
-<a href="https://instagram.com/rl_slavyan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="rl_slavyan" height="30" width="30" /></a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=SlavyanDesu" />
 </p>
