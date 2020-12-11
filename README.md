@@ -13,7 +13,7 @@
 
 - 📝 I'm currently working on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
 
-- 👥 Searching for collaborators on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
+- 👥 Looking for collaborators on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
 
 <p align="center">
   <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
