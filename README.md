@@ -23,27 +23,23 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
-  <img src="https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js" />
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3"0 />
+  <img src="https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=Node.js" />
+  <img src="https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3" />
   <img src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql" />
   <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" />
-  <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" />
   <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/slavyandesu"><img src="https://github-readme-stats.vercel.app/api?username=SlavyanDesu&hide_border=true&show_icons=true" /></a>
+  <a href="https://github.com/SlavyanDesu"><img src="https://github-readme-stats.vercel.app/api?username=SlavyanDesu&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff&hide_border=true&show_icons=true" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/slavyandesu"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=slavyandesu&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="slavyandesu" /></a>
+  <a href="https://github.com/SlavyanDesu"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=SlavyanDesu&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=true&show_icons=true&layout=compact" /></a>
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/sl_avyan"><img src="https://img.shields.io/twitter/follow/sl_avyan?logo=twitter&style=for-the-badge" alt="sl_avyan" /></a>
-</p>
-
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=SlavyanDesu" />
+  <a href="https://twitter.com/sl_avyan"><img src="https://img.shields.io/twitter/follow/sl_avyan?logo=twitter&style=for-the-badge" /></a>
 </p>
