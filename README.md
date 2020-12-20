@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=e34f26" />
   <img src="https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3&logoColor=1572b6" />
   <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" />
-  <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" /> <br>
   <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" />
   <img src="https://img.shields.io/badge/-React-black?style=flat-square&logo=react" />
   <img src="https://img.shields.io/badge/-Redux-black?style=flat-square&logo=redux" />
