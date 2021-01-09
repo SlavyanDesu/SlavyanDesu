@@ -4,9 +4,9 @@
   <img src="https://www.osustuff.org/img/imageslice/2020-11-05/133230/724240.jpg" />
 </p>
 
-- 🌱 I’m currently learning **React, Redux, and Python**.
+- 🌱 I’m currently learning **nothing**.
 
-- 👀 I'm currently focusing on **JavaScript and Node.js**.
+- 👀 I'm currently focusing on **JavaScript**.
 
 - 📝 I'm currently working on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
 
