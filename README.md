@@ -8,7 +8,7 @@
 
 - 👀 I'm currently focusing on **JavaScript**.
 
-- 📝 I'm currently working on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot) and [`SlavyanDesu/NekoBocc`](https://github.com/SlavyanDesu/NekoBocc)
+- 📝 I'm currently working on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot) and [`SlavyanDesu/NekoBocc`](https://github.com/IndonesianDev/NekoBocc)
 
 - 👥 Looking for collaborators on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
 
