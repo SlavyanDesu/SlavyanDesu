@@ -35,6 +35,8 @@
   <a href="https://github.com/SlavyanDesu"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=SlavyanDesu&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=true&show_icons=true&layout=compact" /></a>
 </p>
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
 <p align="center">
    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SlavyanDesu" />
 </p>
