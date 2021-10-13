@@ -6,9 +6,9 @@
 
 - 🌱 I’m currently learning **nothing**.
 
-- 👀 I'm currently focusing on **JavaScript**.
+- 👀 I'm currently focusing on **nothing**.
 
-- 📝 I'm currently working on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot) and [`IndonesianDev/NekoBocc`](https://github.com/IndonesianDev/NekoBocc)
+- 📝 I'm currently working on **nothing**.
 
 - 👥 Looking for collaborators on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
 
