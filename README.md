@@ -4,13 +4,11 @@
   <img src="https://i.ibb.co/FwcFVJt/fischl.jpg" />
 </p>
 
-- 🌱 I’m currently learning **nothing**.
+- 🌱 I’m currently learning **TypeScript**.
 
-- 👀 I'm currently focusing on **nothing**.
+- 📝 I'm currently working on **[`IndonesianDev`](https://github.com/IndonesianDev/NekoBocc)**.
 
-- 📝 I'm currently working on **nothing**.
-
-- 👥 Looking for collaborators on [`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
+- 👥 Looking for collaborators on **[`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)**.
 
 <p align="center">
   <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
