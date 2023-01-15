@@ -3,6 +3,8 @@
   <img src="https://i.ibb.co/FwcFVJt/fischl.jpg" alt="Fischl">
 </div>
 
+---
+
 - 🌱 I’m currently learning **TypeScript**.
 
 - 📝 I'm currently working on **[`IndonesianDev/NekoBocc`](https://github.com/IndonesianDev/NekoBocc)**.
@@ -24,6 +26,7 @@
 
 <div class="me" align="center">
   <a href="https://github.com/SlavyanDesu"><img src="https://github-readme-stats.vercel.app/api?username=SlavyanDesu&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff&hide_border=true&show_icons=true" alt="GitHub stats"></a>
+  <br>
   <a href="https://github.com/SlavyanDesu"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=SlavyanDesu&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=true&show_icons=true&layout=compact" alt="Top langs"></a>
   <a href="https://github.com/SlavyanDesu/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=SlavyanDesu&theme=onedark" alt="Trophy"></a>
   <a href="https://github.com/SlavyanDesu"><img src="https://github-readme-streak-stats.herokuapp.com/?user=SlavyanDesu" alt="Streaks"></a>
@@ -33,7 +36,8 @@
   <a href="https://www.youtube.com/channel/UCg_NUppMwYKiGp23rjFMyEg"><img src="https://img.shields.io/badge/YouTube-Heikal%20Syah%20Shiddiq-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000&link=https://www.youtube.com/channel/UCg_NUppMwYKiGp23rjFMyEg" alt="YouTube"></a>
   <a href="mailto:slavyan@secret.fyi"><img src="https://img.shields.io/badge/Gmail-slavyan@secret.fyi-ea4335?style=for-the-badge&logo=Gmail&logoColor=ea4335&link=mailto:slavyan@secret.fyi" alt="Email"></a>
   <a href="https://twitter.com/sl_avyan"><img src="https://img.shields.io/twitter/follow/sl_avyan?logo=twitter&style=for-the-badge" alt="Twitter"></a>
+  <a href="https://discordapp.com/user/446297580431998977"><img src="https://discord.c99.nl/widget/theme-1/446297580431998977.png" alt="Discord"></a>
   <br>
   <a href="https://github.com/SlavyanDesu"><img src="https://komarev.com/ghpvc/?username=SlavyanDesu&label=VIEWS&style=flat-square&color=orange" alt="Views"></a>
-  <a href="https://discordapp.com/user/446297580431998977"><img src="https://discord.c99.nl/widget/theme-1/446297580431998977.png" alt="Discord></a>
+
 </div>
