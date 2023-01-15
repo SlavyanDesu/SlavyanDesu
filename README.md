@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **TypeScript**.
 
-- 📝 I'm currently working on **[`IndonesianDev`](https://github.com/IndonesianDev/NekoBocc)**.
+- 📝 I'm currently working on **[`IndonesianDev/NekoBocc`](https://github.com/IndonesianDev/NekoBocc)**.
 
 - 👥 Looking for collaborators on **[`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)**.
 
