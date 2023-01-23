@@ -5,11 +5,11 @@
 
 ---
 
-- 🌱 I’m currently learning **TypeScript**.
+- 🌱 I’m currently learning **TypeScript** and **React**
 
-- 📝 I'm currently working on **[`IndonesianDev/NekoBocc`](https://github.com/IndonesianDev/NekoBocc)**.
+- 📝 I'm currently working on [`NekoBocc`](https://github.com/SlavyanDesu/NekoBocc) and [`bmkg-wrapper`](https://github.com/SlavyanDesu/bmkg-wrapper)
 
-- 👥 Looking for collaborators on **[`SlavyanDesu/BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)**.
+- 👥 Looking for collaborators on [`BocchiBot`](https://github.com/SlavyanDesu/BocchiBot)
 
 <div class="tools" align="center">
   <img src="https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=e34f26">
@@ -34,8 +34,7 @@
 
 <div class="contact" align="center">
   <a href="https://www.youtube.com/channel/UCg_NUppMwYKiGp23rjFMyEg"><img src="https://img.shields.io/badge/YouTube-Heikal%20Syah%20Shiddiq-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000&link=https://www.youtube.com/channel/UCg_NUppMwYKiGp23rjFMyEg" alt="YouTube"></a>
-  <a href="mailto:slavyan@secret.fyi"><img src="https://img.shields.io/badge/Gmail-slavyan@secret.fyi-ea4335?style=for-the-badge&logo=Gmail&logoColor=ea4335&link=mailto:slavyan@secret.fyi" alt="Email"></a>
-  <a href="https://twitter.com/sl_avyan"><img src="https://img.shields.io/twitter/follow/sl_avyan?logo=twitter&style=for-the-badge" alt="Twitter"></a>
+  <a href="mailto:heikalsyahshiddiq@gmail.com"><img src="https://img.shields.io/badge/Gmail-heikalsyahshiddiq@gmail.com-ea4335?style=for-the-badge&logo=Gmail&logoColor=ea4335&link=mailto:slavyan@secret.fyi" alt="Email"></a>
   <a href="https://discordapp.com/user/446297580431998977"><img src="https://discord.c99.nl/widget/theme-1/446297580431998977.png" alt="Discord"></a>
   <br>
   <a href="https://github.com/SlavyanDesu"><img src="https://komarev.com/ghpvc/?username=SlavyanDesu&label=VIEWS&style=flat-square&color=orange" alt="Views"></a>
