@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className={darkMode ? 'dark' : ''}>
       <Head>
-        <title>Heikal Syah Shiddiq | Portofolio</title>
+        <title>Heikal Syah S.| Portofolio</title>
         <meta name="description" content="A bit of myself." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/avatar.ico" />
@@ -54,7 +54,7 @@ export default function Home() {
           </nav>
           <div className='text-center p-10 py-10'>
             <h2 className='text-5xl py-2 text-cyan-500 dark:text-cyan-300 font-extrabold md:text-6xl'>
-              Heikal Syah Shiddiq
+              Heikal Syah S.
             </h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>
               Developer and designer.
