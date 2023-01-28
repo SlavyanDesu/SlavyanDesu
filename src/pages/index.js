@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className={darkMode ? 'dark' : ''}>
       <Head>
-        <title>Heikal Syah S.| Portofolio</title>
+        <title>Heikal Syah S. | Portofolio</title>
         <meta name="description" content="A bit of myself." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/avatar.ico" />
