@@ -69,7 +69,7 @@ export default function Home() {
             <AiFillYoutube onClick={() => window.open('https://www.youtube.com/channel/UCg_NUppMwYKiGp23rjFMyEg', '_blank')} className='cursor-pointer' />
             <AiFillGithub onClick={() => window.open('https://github.com/SlavyanDesu', '_blank')} className='cursor-pointer' />
           </div>
-          <div className='relative mx-auto bg-white bg-gradient-to-b from-cyan-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 dark:bg-cyan-300 dark:bg-gradient-to-b dark:from-white'>
+          <div className='relative mx-auto bg-white bg-gradient-to-b from-cyan-300 rounded-full w-80 h-80 bottom-9 mt-20 overflow-hidden md:h-96 md:w-96 dark:bg-cyan-300 dark:bg-gradient-to-b dark:from-white'>
             <Image src={slavyan} alt='SlavyanDesu' layout='fill' objectFit='cover'/>
           </div>
         </section>
