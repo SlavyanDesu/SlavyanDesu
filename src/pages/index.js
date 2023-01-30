@@ -45,7 +45,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'
+                  className='hover:bg-gradient-to-r hover:from-cyan-400 hover:to-teal-400 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'
                   href="https://www.behance.net/slavyan/resume" target={'_blank'} rel="noreferrer"
                 >Resume
                 </a>
