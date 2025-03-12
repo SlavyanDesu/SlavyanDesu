@@ -1,6 +1,6 @@
 ## Hi 👋, I'm Slavyan!
 
-[![Linkedin Badge](https://img.shields.io/badge/-kalinisme-blue?style=flat&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/kalinisme/)](https://www.linkedin.com/in/kalinisme/)
+[![Linkedin Badge](https://img.shields.io/badge/-slavyan-053eff?style=flat&logo=behance&logoColor=white&link=https://www.behance.net/slavyan)](https://www.behance.net/slavyan)
 [![Twitter Badge](https://img.shields.io/badge/-@slvyn050403-black?style=flat&logo=x&logoColor=white&link=https://x.com/slvyn050403)](https://x.com/slvyn050403)
 [![Instagram Badge](https://img.shields.io/badge/-@slavyandesu-purple?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/slavyandesu/)](https://instagram.com/slavyandesu[)
 [![GitHub Profile Views Counter](https://komarev.com/ghpvc/?username=SlavyanDesu&color=blue&style=flat)](https://github.com/SlavyanDesu)
