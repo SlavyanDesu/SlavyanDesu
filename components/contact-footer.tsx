@@ -29,7 +29,7 @@ export function ContactFooter() {
         <Reveal delay={0.05}>
           <a
             href={`mailto:${contactEmail}`}
-            className="group mt-10 inline-block text-pretty break-all text-2xl font-bold leading-none tracking-tight transition-colors hover:text-brand sm:text-3xl md:text-6xl"
+            className="group mt-10 inline-block text-pretty break-all text-2xl font-bold leading-none tracking-tight transition-colors hover:text-brand sm:text-3xl md:text-5xl"
           >
             {contactEmail}
             <ArrowUpRight className="ml-2 inline size-[0.7em] align-top transition-transform group-hover:translate-x-2 group-hover:-translate-y-2" />
@@ -39,7 +39,11 @@ export function ContactFooter() {
         {/* Social links grid */}
         <div className="mt-24 grid gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {socials.map((social, i) => (
-            <Reveal key={social.label} delay={i * 0.06}>
+            <Reveal
+              key={social.label}
+              delay={i * 0.06}
+              className="sm:last:col-span-2 lg:last:col-span-1"
+            >
               <a
                 href={social.href}
                 target="_blank"

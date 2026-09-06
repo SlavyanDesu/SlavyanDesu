@@ -9,11 +9,6 @@ import { Skills } from '@/components/skills'
 import { ContactFooter } from '@/components/contact-footer'
 import { IntroLoader } from '@/components/intro-loader'
 
-/*
- * The portfolio is one scrolling page. The Hero owns the opening name
- * animation, followed by the identity ticker, work, visual experiments,
- * background, skills, and contact sections.
- */
 export default function Page() {
   return (
     <>

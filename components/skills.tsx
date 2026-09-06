@@ -18,7 +18,7 @@ export function Skills() {
         description="The languages, tools and practices behind my work."
       />
 
-      <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-10 lg:grid-cols-4">
         {skillGroups.map((group, i) => (
           <Reveal key={group.title} delay={i * 0.08}>
             <div>

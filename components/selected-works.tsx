@@ -13,8 +13,8 @@ export function SelectedWorks() {
     >
       <SectionHeader
         eyebrow="Selected Works"
-        title="Things I've built"
-        description="Open-source tools, bots and APIs built to solve practical problems."
+        title="Things I've made"
+        description="Open-source tools, bots and APIs I have made so far."
         count={String(works.length).padStart(2, '0')}
       />
 

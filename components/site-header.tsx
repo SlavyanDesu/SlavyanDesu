@@ -22,8 +22,6 @@ export function SiteHeader() {
     event.preventDefault()
     const lenis = (window as any).__lenis
     if (lenis) {
-      // Lenis intercepts native scrolling, so drive its own smooth scroll
-      // for that buttery weighted animation to the target section.
       lenis.scrollTo(target, { offset: 0, duration: 1.2 })
     } else {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -80,7 +78,7 @@ export function SiteHeader() {
         </ul>
 
         {/* Availability indicator for the current contact state. */}
-        <div className="flex items-center gap-2">
+        <div className="hidden md:flex items-center gap-2">
           <span className="relative flex h-2 w-2">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand opacity-75" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-brand" />

@@ -63,7 +63,7 @@ export function Hero() {
             href="#contact"
             className="font-mono uppercase tracking-widest text-muted-foreground transition-colors hover:text-foreground md:justify-self-end"
           >
-            Contact me here <span aria-hidden="true">↗</span>
+            Contact me <span aria-hidden="true">↗</span>
           </a>
         </motion.div>
       </motion.div>
