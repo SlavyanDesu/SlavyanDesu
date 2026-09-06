@@ -3,10 +3,16 @@
 import { motion } from 'motion/react'
 import { useEffect, useState } from 'react'
 import { editorialEase } from '@/lib/motion'
-
-const quote = 'I never quite realized... how beautiful this world is.'
-const author = 'A2, NieR: Automata'
-const introText = `"${quote}"\n- ${author}`
+import {
+  quote,
+  author,
+  introText,
+  TYPING_MIN,
+  TYPING_MAX,
+  EXIT_FADE_DELAY,
+  EXIT_LIGHT_DELAY,
+  EXIT_HIDE_DELAY,
+} from '@/lib/intro'
 
 export function IntroLoader() {
   const [typedText, setTypedText] = useState('')
@@ -29,26 +35,26 @@ export function IntroLoader() {
       setTypedText(introText.slice(0, index))
 
       if (index >= introText.length) {
-        timers.push(window.setTimeout(() => setFadeText(true), 1800))
-        timers.push(window.setTimeout(() => setLight(true), 2100))
+        timers.push(window.setTimeout(() => setFadeText(true), EXIT_FADE_DELAY))
+        timers.push(window.setTimeout(() => setLight(true), EXIT_LIGHT_DELAY))
         timers.push(
           window.setTimeout(() => {
             document.body.style.overflow = previousBodyOverflow
             document.documentElement.style.overflow = previousDocumentOverflow
             setVisible(false)
-          }, 2900),
+          }, EXIT_HIDE_DELAY),
         )
         return
       }
 
       const currentCharacter = introText[index - 1]
       const isEllipsisStart = introText.slice(index - 1, index + 2) === '...'
-      const pause = currentCharacter === '\n' ? 240 : isEllipsisStart ? 180 : currentCharacter === '.' ? 120 : currentCharacter === ',' ? 70 : 0
-      const naturalVariation = 42 + Math.random() * 32
+      const pause = currentCharacter === '\n' ? 200 : isEllipsisStart ? 150 : currentCharacter === '.' ? 90 : currentCharacter === ',' ? 60 : 0
+      const naturalVariation = TYPING_MIN + Math.random() * (TYPING_MAX - TYPING_MIN)
       typingTimer = window.setTimeout(typeNextCharacter, naturalVariation + pause)
     }
 
-    typingTimer = window.setTimeout(typeNextCharacter, 120)
+    typingTimer = window.setTimeout(typeNextCharacter, 60)
 
     return () => {
       if (typingTimer) window.clearTimeout(typingTimer)

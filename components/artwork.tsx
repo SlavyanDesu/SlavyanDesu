@@ -38,7 +38,7 @@ export function Artwork() {
     <section id="artwork" className="section-shell">
       <SectionHeader
         eyebrow="Selected Visuals"
-        title="Artwork & play"
+        title="Artworks"
         description="A selection of my arts."
       />
 
@@ -83,9 +83,9 @@ export function Artwork() {
               />
 
               {/* Caption overlay sits at the bottom, lifts up slightly on hover. */}
-              <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 bg-linear-to-t from-background/90 to-transparent p-4">
+              <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 border-t border-white/20 bg-white/20 p-4 backdrop-blur-md">
                 <div>
-                  <p className="font-medium leading-tight">{art.title}</p>
+                  <p className="font-medium leading-tight text-foreground">{art.title}</p>
                   <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
                     {art.category}
                   </p>
@@ -126,9 +126,9 @@ export function Artwork() {
               sizes="100vw"
               priority
             />
-            <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 bg-linear-to-t from-background/90 to-transparent px-4 pb-4 pt-16">
+            <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 border-t border-white/20 bg-white/20 px-4 pb-4 pt-16 backdrop-blur-md">
               <div>
-                <p className="text-lg font-medium">{artworks[selectedIndex].title}</p>
+                <p className="text-lg font-medium text-foreground">{artworks[selectedIndex].title}</p>
                 <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
                   {artworks[selectedIndex].category}
                 </p>

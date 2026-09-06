@@ -29,7 +29,7 @@ export function ContactFooter() {
         <Reveal delay={0.05}>
           <a
             href={`mailto:${contactEmail}`}
-            className="group mt-10 inline-block text-pretty text-4xl font-bold leading-none tracking-tight transition-colors hover:text-brand md:text-6xl"
+            className="group mt-10 inline-block text-pretty break-all text-2xl font-bold leading-none tracking-tight transition-colors hover:text-brand sm:text-3xl md:text-6xl"
           >
             {contactEmail}
             <ArrowUpRight className="ml-2 inline size-[0.7em] align-top transition-transform group-hover:translate-x-2 group-hover:-translate-y-2" />

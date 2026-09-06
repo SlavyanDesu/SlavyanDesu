@@ -26,14 +26,14 @@ export function About() {
         {/* Bio copy */}
         <div className="md:col-span-8">
           <Reveal>
-            <p className="text-balance text-2xl font-medium leading-snug tracking-tight md:text-4xl">
+            <p className="text-balance text-2xl font-medium leading-tight tracking-[-0.02em] md:text-4xl md:leading-[1.15] md:tracking-tight">
               I&apos;m {profile.name.split(' ')[0]}, a self-taught developer from {profile.location}. I
               live in The Wired — shipping bots, scrapers and APIs that turn tedious, repetitive work
               into something that just runs.
             </p>
           </Reveal>
           <Reveal delay={0.1}>
-            <p className="mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+            <p className="mt-8 max-w-2xl text-base leading-relaxed tracking-[-0.005em] text-muted-foreground md:mt-10 md:text-lg md:leading-loose">
               Most of my work is open source.<br />
               I have experience with making RESTful APIs, web app, and bots. <br />
               Started as a Discord bot developer, I become more interested in coding. <br />

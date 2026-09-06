@@ -4,8 +4,7 @@ import { motion, useScroll, useTransform } from 'motion/react'
 import { useRef } from 'react'
 import { profile } from '@/lib/portfolio-data'
 import { editorialSlowTransition, editorialTransition } from '@/lib/motion'
-
-const introExitDelay = 8.5
+import { introExitDelay } from '@/lib/intro'
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null)

@@ -79,6 +79,9 @@
   h3 {
     letter-spacing: -0.04em;
   }
+  p {
+    text-rendering: optimizeLegibility;
+  }
 }
 
 section[id],
@@ -143,16 +146,25 @@ footer[id] {
   }
 }
 
-a,
-button,
-[role='button'] {
-  transition-property: filter;
-  transition-duration: 240ms;
-  transition-timing-function: ease;
-}
+@layer base {
+  /*
+   * Global hover treatment: a soft blur + tighten on every interactive element.
+   * Lives in `base` (not unlayered) so Tailwind's `transition-*` utilities in
+   * the utilities layer can override the transition-property — otherwise this
+   * forced `filter` transition would silently break the `group-hover` translate
+   * / scale animations used throughout the page.
+   */
+  a,
+  button,
+  [role='button'] {
+    transition-property: filter;
+    transition-duration: 240ms;
+    transition-timing-function: ease;
+  }
 
-a:hover,
-button:hover,
-[role='button']:hover {
-  filter: blur(2px);
+  a:hover,
+  button:hover,
+  [role='button']:hover {
+    filter: blur(2px);
+  }
 }
