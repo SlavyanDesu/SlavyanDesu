@@ -27,7 +27,7 @@ const geistMono = Geist_Mono({
  */
 export const metadata: Metadata = {
   metadataBase: new URL('https://slavyandesu.vercel.app'),
-  title: `${profile.name} — ${profile.role}`,
+  title: `${profile.name} | ${profile.role}`,
   description: profile.tagline,
   generator: 'v0.app',
   keywords: [
