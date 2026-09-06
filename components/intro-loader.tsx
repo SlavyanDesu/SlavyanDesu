@@ -71,8 +71,8 @@ export function IntroLoader() {
 
   return (
     <motion.div
-      initial={{ backgroundColor: '#000000', color: '#ffffff' }}
-      animate={light ? { backgroundColor: '#ffffff', color: '#111111' } : undefined}
+      initial={{ backgroundColor: 'rgba(0,0,0,1)', color: 'rgba(255,255,255,1)' }}
+      animate={light ? { backgroundColor: 'rgba(255,255,255,1)', color: 'rgba(17,17,17,1)' } : undefined}
       transition={{ duration: 0.8, ease: editorialEase }}
       className="fixed inset-0 z-100 flex items-center justify-center px-6 md:px-10"
       role="status"

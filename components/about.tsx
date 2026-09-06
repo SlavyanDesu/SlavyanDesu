@@ -48,19 +48,13 @@ export function About() {
         {manifesto.map((line, i) => (
           <Reveal key={line} delay={i * 0.08}>
             <motion.div
-              whileHover={{ scale: 1.015, backgroundColor: '#111111', color: '#ffffff' }}
+              whileHover={{ scale: 1.015, x: 12 }}
               transition={{ duration: 0.35, ease: 'easeOut' }}
               className="group w-fit max-w-full cursor-default origin-left px-2 py-1"
             >
-              <p className="text-[13vw] font-bold leading-[0.95] tracking-tight md:text-[9vw]">
+              <p className="tracking-tight transition-[letter-spacing] duration-500 ease-out group-hover:tracking-tighter text-[13vw] font-bold leading-[0.95] md:text-[9vw]">
                 {line}
-                <motion.span
-                  className="ml-[0.04em] inline-block text-current"
-                  whileHover={{ scaleX: 1.8 }}
-                  transition={{ duration: 0.35, ease: 'easeOut' }}
-                >
-                  .
-                </motion.span>
+                <span className="ml-[0.04em] inline-block text-brand">.</span>
               </p>
             </motion.div>
           </Reveal>
