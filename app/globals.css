@@ -1,0 +1,158 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * @theme inline maps our CSS variables to Tailwind utility classes.
+ * e.g. `--color-brand` below makes `bg-brand` / `text-brand` available.
+ * We also expose the two fonts loaded in layout.tsx as `font-sans`/`font-mono`.
+ */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+}
+
+/*
+ * This portfolio is intentionally monochrome and light-only. The palette uses
+ * white, near-black, gray, and a black accent for an editorial contrast.
+ */
+:root {
+  color-scheme: light;
+
+  --background: oklch(1 0 0); /* white */
+  --foreground: oklch(0.145 0 0); /* near-black */
+
+  --card: oklch(0.97 0 0);
+  --card-foreground: oklch(0.145 0 0);
+
+  --muted: oklch(0.94 0 0);
+  --muted-foreground: oklch(0.45 0 0); /* gray for secondary copy */
+
+  --border: oklch(0 0 0 / 14%);
+
+  --primary: oklch(0.145 0 0);
+  --primary-foreground: oklch(1 0 0);
+
+  --brand: oklch(0.145 0 0); /* black accent */
+  --brand-foreground: oklch(1 0 0);
+
+  --radius: 0.625rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Slightly negative tracking on body copy for Geist's firm, dense feel. */
+    letter-spacing: -0.011em;
+    /* Enable kerning + ligatures so letter pairs sit tightly together. */
+    font-kerning: normal;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+    text-rendering: optimizeLegibility;
+  }
+  /*
+   * Display headings get much tighter tracking — this is what gives the big
+   * hero/section type that firm, condensed grotesk look from the reference.
+   */
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.04em;
+  }
+}
+
+section[id],
+footer[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Utility: a thin uppercase mono label used for section eyebrows. */
+.eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.7rem;
+}
+
+@layer components {
+  .section-shell {
+    padding: 6rem 1.5rem;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1.5rem;
+  }
+
+  .section-eyebrow {
+    color: var(--brand);
+  }
+
+  .section-title {
+    margin-top: 0.75rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+
+  .section-description {
+    max-width: 36rem;
+    margin-top: 1rem;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    line-height: 1.625;
+  }
+
+  @media (min-width: 768px) {
+    .section-shell {
+      padding: 10rem 2.5rem;
+    }
+
+    .section-title {
+      font-size: 3.75rem;
+    }
+
+    .section-description {
+      font-size: 1rem;
+    }
+  }
+}
+
+a,
+button,
+[role='button'] {
+  transition-property: filter;
+  transition-duration: 240ms;
+  transition-timing-function: ease;
+}
+
+a:hover,
+button:hover,
+[role='button']:hover {
+  filter: blur(2px);
+}
