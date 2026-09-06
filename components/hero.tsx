@@ -37,7 +37,7 @@ export function Hero() {
               initial={{ scale: 1.32 }}
               animate={{ scale: 1 }}
               transition={{ ...editorialSlowTransition, delay: introExitDelay }}
-              className="flex max-w-350 flex-wrap items-center justify-center gap-x-3 text-center text-6xl font-bold leading-[0.86] tracking-[-0.06em] sm:text-8xl md:gap-x-5 lg:text-[9rem]"
+              className="flex max-w-350 flex-wrap items-center justify-center gap-x-3 text-center text-6xl font-bold tracking-[-0.06em] sm:text-5xl md:gap-x-5 lg:text-[9rem]"
             >
               <span>{firstName}</span>
               <span>{lastNames.join(' ')}</span>
