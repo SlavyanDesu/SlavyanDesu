@@ -20,7 +20,7 @@ export const socials = [
   { label: "Behance", handle: "behance.net/slavyan", href: "https://www.behance.net/slavyan" },
 ] as const
 
-export const contactEmail = "heikalsyahshiddiq@gmail.com"
+export const contactEmail = "slavyandesu@gmail.com"
 
 export type Work = {
   index: string
