@@ -9,13 +9,14 @@ export function SelectedWorks() {
   return (
     <section
       id="works"
-      className="section-shell relative"
+      className="relative px-6 py-24 md:px-10 md:py-40"
     >
       <SectionHeader
         eyebrow="Selected Works"
         title="Things I've made"
         description="Open-source tools, bots and APIs I have made so far."
         count={String(works.length).padStart(2, '0')}
+        className="mb-16"
       />
 
       {/* The list of projects */}
@@ -23,7 +24,7 @@ export function SelectedWorks() {
         {works.map((work, i) => (
           <Reveal key={work.title} delay={i * 0.05}>
             <li
-              className="group border-b border-border"
+              className="group border-b"
             >
               <a
                 href={work.href}
@@ -32,12 +33,12 @@ export function SelectedWorks() {
                 className="grid grid-cols-12 items-center gap-4 py-6 md:py-8"
               >
                 {/* Index number */}
-                <span className="col-span-2 font-mono text-sm text-muted-foreground md:col-span-1">
+                <span className="col-span-2 font-mono text-sm text-neutral-600 md:col-span-1">
                   {work.index}
                 </span>
 
                 {/* Title — slides right + turns brand-colored on hover */}
-                <span className="col-span-8 text-2xl font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-2 group-hover:text-brand md:col-span-6 md:text-4xl">
+                <span className="col-span-8 text-2xl font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-2 group-hover:text-neutral-950 md:col-span-6 md:text-4xl">
                   {work.title}
                 </span>
 
@@ -46,7 +47,7 @@ export function SelectedWorks() {
                   {work.stack.map((tech) => (
                     <span
                       key={tech}
-                      className="rounded-full border border-border px-3 py-1 font-mono text-xs text-muted-foreground"
+                      className="rounded-full border px-3 py-1 font-mono text-xs text-neutral-600"
                     >
                       {tech}
                     </span>
@@ -54,9 +55,9 @@ export function SelectedWorks() {
                 </span>
 
                 {/* Year + arrow */}
-                <span className="col-span-2 flex items-center justify-end gap-3 font-mono text-sm text-muted-foreground md:col-span-2">
+                <span className="col-span-2 flex items-center justify-end gap-3 font-mono text-sm text-neutral-600 md:col-span-2">
                   {work.year}
-                  <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-brand" />
+                  <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-neutral-950" />
                 </span>
               </a>
             </li>
@@ -68,9 +69,9 @@ export function SelectedWorks() {
         href="https://github.com/SlavyanDesu"
         target="_blank"
         rel="noopener noreferrer"
-        className="group mt-8 flex items-center justify-between border-b border-border pb-4 font-mono text-xs uppercase tracking-widest text-muted-foreground"
+        className="group mt-8 flex items-center justify-between border-b pb-4 font-mono text-xs uppercase tracking-widest text-neutral-600"
       >
-        <span className="transition-colors group-hover:text-foreground">See more projects on GitHub</span>
+        <span className="transition-colors group-hover:text-neutral-950">See more projects on GitHub</span>
         <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
       </a>
 

@@ -4,8 +4,6 @@ import { motion } from 'motion/react'
 import { useEffect, useState } from 'react'
 import { editorialEase } from '@/lib/motion'
 import {
-  quote,
-  author,
   introText,
   TYPING_MIN,
   TYPING_MAX,

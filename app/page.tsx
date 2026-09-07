@@ -16,7 +16,7 @@ export default function Page() {
       {/* Enables Lenis momentum scrolling without rendering its own markup. */}
       <SmoothScroll />
       <SiteHeader />
-      <main className="mx-auto max-w-[1600px]">
+      <main className="mx-auto">
         <Hero />
         {/* A quick identity ticker separates the Hero from the work list. */}
         <Marquee text="TypeScript · Node.js · Bots · APIs · Automation" duration={26} />

@@ -19,14 +19,14 @@ export function Marquee({
   const item = (
     <span className="flex shrink-0 items-center">
       <span className="px-8">{text}</span>
-      <span className="text-brand" aria-hidden="true">
+      <span className="text-neutral-950" aria-hidden="true">
         &#9679;
       </span>
     </span>
   )
 
   return (
-    <div className="flex overflow-hidden border-y border-border py-6 select-none">
+    <div className="flex overflow-hidden border-y py-6 select-none">
       <motion.div
         className="flex shrink-0 items-center text-4xl font-medium tracking-tight whitespace-nowrap md:text-6xl"
         animate={{ x: ['0%', '-50%'] }}

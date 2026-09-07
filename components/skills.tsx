@@ -11,18 +11,19 @@ import { SectionHeader } from '@/components/section-header'
  */
 export function Skills() {
   return (
-    <section className="section-shell">
+    <section className="px-6 py-24 md:px-10 md:py-40">
       <SectionHeader
         eyebrow="Skill Sets"
         title="Tools of the trade"
         description="The languages, tools and practices behind my work."
+        className="mb-16"
       />
 
       <div className="grid grid-cols-2 gap-10 lg:grid-cols-4">
         {skillGroups.map((group, i) => (
           <Reveal key={group.title} delay={i * 0.08}>
             <div>
-              <h3 className="mb-4 font-mono text-xs uppercase tracking-widest text-muted-foreground">
+              <h3 className="mb-4 font-mono text-xs uppercase tracking-widest text-neutral-600">
                 {group.title}
               </h3>
               <ul className="flex flex-col gap-2">
@@ -44,16 +45,16 @@ export function Skills() {
         className="mt-28 md:mt-40"
       />
 
-      <div className="grid gap-px overflow-hidden rounded-lg border border-border bg-border md:grid-cols-3">
+      <div className="grid gap-px overflow-hidden rounded-[0.625rem] border bg-black/14 md:grid-cols-3">
         {services.map((service, i) => (
           <Reveal key={service.title} delay={i * 0.1}>
             {/* group hover lifts the brand color into the heading */}
-            <div className="group flex h-full flex-col gap-6 bg-background p-8 md:p-10">
-              <span className="font-mono text-sm text-muted-foreground">{service.number}</span>
-              <h3 className="text-2xl font-semibold tracking-tight transition-colors group-hover:text-brand md:text-3xl">
+            <div className="group flex h-full flex-col gap-6 bg-white p-8 md:p-10">
+              <span className="font-mono text-sm text-neutral-600">{service.number}</span>
+              <h3 className="text-2xl font-semibold tracking-tight transition-colors group-hover:text-neutral-950 md:text-3xl">
                 {service.title}
               </h3>
-              <p className="text-base leading-relaxed text-muted-foreground">{service.body}</p>
+              <p className="text-base leading-relaxed text-neutral-600">{service.body}</p>
             </div>
           </Reveal>
         ))}

@@ -14,13 +14,17 @@ export function SectionHeader({
   className?: string
 }) {
   return (
-    <Reveal className={`section-header ${className}`}>
+    <Reveal className={`flex items-end justify-between border-b pb-6 ${className}`}>
       <div>
-        <span className="eyebrow section-eyebrow">// {eyebrow}</span>
-        <h2 className="section-title">{title}</h2>
-        <p className="section-description">{description}</p>
+        <span className="font-mono text-[0.7rem] uppercase tracking-[0.2em] text-neutral-950">
+          // {eyebrow}
+        </span>
+        <h2 className="mt-3 text-4xl font-bold leading-none md:text-6xl">{title}</h2>
+        <p className="mt-4 max-w-[36rem] text-sm leading-relaxed text-neutral-600 md:text-base">
+          {description}
+        </p>
       </div>
-      {count && <span className="hidden font-mono text-sm text-muted-foreground md:block">({count})</span>}
+      {count && <span className="hidden font-mono text-sm text-neutral-600 md:block">({count})</span>}
     </Reveal>
   )
 }

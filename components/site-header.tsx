@@ -41,7 +41,7 @@ export function SiteHeader() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, delay: introExitDelay, ease: editorialEase }}
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        scrolled ? 'border-b border-border bg-background/70 backdrop-blur-md' : 'border-b border-transparent'
+        scrolled ? 'border-b bg-white/70 backdrop-blur-md' : 'border-b border-transparent'
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-10 md:py-4">
@@ -49,7 +49,7 @@ export function SiteHeader() {
         <a
           href="#top"
           onClick={(event) => handleNavClick(event, '#top')}
-          className="flex h-12 w-12 shrink-0 items-center md:h-24 md:w-24"
+          className="flex h-12 w-12 shrink-0 items-center md:h-24 md:w-24 transition-[filter,color]"
         >
           <Image
             src="/slavyan.svg"
@@ -69,7 +69,7 @@ export function SiteHeader() {
               <a
                 href={link.href}
                 onClick={(event) => handleNavClick(event, link.href)}
-                className="whitespace-nowrap font-mono text-xs uppercase tracking-widest text-muted-foreground transition-colors hover:text-foreground"
+                className="whitespace-nowrap font-mono text-xs uppercase tracking-widest text-neutral-600 transition-[filter,color] hover:text-neutral-950"
               >
                 {link.label}
               </a>
@@ -80,10 +80,10 @@ export function SiteHeader() {
         {/* Availability indicator for the current contact state. */}
         <div className="hidden md:flex items-center gap-2">
           <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-brand" />
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-neutral-950 opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-neutral-950" />
           </span>
-          <span className="whitespace-nowrap font-mono text-xs uppercase tracking-widest text-muted-foreground">
+          <span className="whitespace-nowrap font-mono text-xs uppercase tracking-widest text-neutral-600">
             On Hiatus
           </span>
         </div>

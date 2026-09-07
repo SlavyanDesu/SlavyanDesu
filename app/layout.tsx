@@ -69,10 +69,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    // The bg-background class on <html> prevents any flash of the wrong color.
+    // The bg-white class on <html> prevents any flash of the wrong color.
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} bg-background`}
+      className={`${geistSans.variable} ${geistMono.variable} bg-white`}
     >
       <body className="font-sans antialiased">
         {children}

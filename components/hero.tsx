@@ -50,10 +50,10 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...editorialTransition, delay: introExitDelay + editorialSlowTransition.duration }}
-          className="grid gap-6 border-t border-border pt-4 text-xs md:grid-cols-[1fr_1.5fr_1fr] md:items-end"
+          className="grid gap-6 border-t pt-4 text-xs md:grid-cols-[1fr_1.5fr_1fr] md:items-end"
         >
-          <div className="font-mono uppercase tracking-widest text-muted-foreground">
-            <span className="block text-foreground">Focus</span>
+          <div className="font-mono uppercase tracking-widest text-neutral-600">
+            <span className="block text-neutral-950">Focus</span>
             <span>{profile.role}</span>
           </div>
           <p className="max-w-md text-sm font-medium leading-snug md:justify-self-center md:text-base">
@@ -61,9 +61,9 @@ export function Hero() {
           </p>
           <a
             href="#contact"
-            className="font-mono uppercase tracking-widest text-muted-foreground transition-colors hover:text-foreground md:justify-self-end"
+            className="font-mono uppercase tracking-widest text-neutral-600 hover:text-neutral-950 md:justify-self-end transition-[filter,color]"
           >
-            Contact me <span aria-hidden="true">↗</span>
+            Contact me
           </a>
         </motion.div>
       </motion.div>
