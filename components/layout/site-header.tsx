@@ -20,7 +20,7 @@ export function SiteHeader() {
     if (!target) return
 
     event.preventDefault()
-    const lenis = (window as any).__lenis
+    const lenis = window.__lenis
     if (lenis) {
       lenis.scrollTo(target, { offset: 0, duration: 1.2 })
     } else {

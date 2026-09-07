@@ -2,15 +2,13 @@
 
 import { ArrowUpRight } from 'lucide-react'
 import { works } from '@/lib/portfolio-data'
-import { Reveal } from '@/components/reveal'
-import { SectionHeader } from '@/components/section-header'
+import { Reveal } from '@/components/shared/reveal'
+import { Section } from '@/components/shared/section'
+import { SectionHeader } from '@/components/shared/section-header'
 
 export function SelectedWorks() {
   return (
-    <section
-      id="works"
-      className="relative px-6 py-24 md:px-10 md:py-40"
-    >
+    <Section id="works" className="relative">
       <SectionHeader
         eyebrow="Selected Works"
         title="Things I've made"
@@ -75,6 +73,6 @@ export function SelectedWorks() {
         <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
       </a>
 
-    </section>
+    </Section>
   )
 }

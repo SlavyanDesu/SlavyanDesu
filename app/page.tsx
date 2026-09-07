@@ -1,13 +1,13 @@
-import { SiteHeader } from '@/components/site-header'
-import { SmoothScroll } from '@/components/smooth-scroll'
-import { Hero } from '@/components/hero'
-import { Marquee } from '@/components/marquee'
-import { SelectedWorks } from '@/components/selected-works'
-import { Artwork } from '@/components/artwork'
-import { About } from '@/components/about'
-import { Skills } from '@/components/skills'
-import { ContactFooter } from '@/components/contact-footer'
-import { IntroLoader } from '@/components/intro-loader'
+import { SiteHeader } from '@/components/layout/site-header'
+import { SmoothScroll } from '@/components/layout/smooth-scroll'
+import { ContactFooter } from '@/components/layout/contact-footer'
+import { Hero } from '@/components/sections/hero'
+import { SelectedWorks } from '@/components/sections/selected-works'
+import { Artwork } from '@/components/sections/artwork'
+import { About } from '@/components/sections/about'
+import { Skills } from '@/components/sections/skills'
+import { Marquee } from '@/components/shared/marquee'
+import { IntroLoader } from '@/components/overlays/intro-loader'
 
 export default function Page() {
   return (
@@ -18,8 +18,7 @@ export default function Page() {
       <SiteHeader />
       <main className="mx-auto">
         <Hero />
-        {/* A quick identity ticker separates the Hero from the work list. */}
-        <Marquee text="TypeScript · Node.js · Bots · APIs · Automation" duration={26} />
+        <Marquee text="TypeScript · Node.js · Bots · APIs · Automation" />
         <SelectedWorks />
         <Artwork />
         <About />

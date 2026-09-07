@@ -1,8 +1,9 @@
 'use client'
 
 import { profile, manifesto } from '@/lib/portfolio-data'
-import { Reveal } from '@/components/reveal'
-import { SectionHeader } from '@/components/section-header'
+import { Reveal } from '@/components/shared/reveal'
+import { Section } from '@/components/shared/section'
+import { SectionHeader } from '@/components/shared/section-header'
 import Image from 'next/image'
 
 function ManifestoLine({ text }: { text: string }) {
@@ -22,7 +23,7 @@ function ManifestoLine({ text }: { text: string }) {
 
 export function About() {
   return (
-    <section id="about" className="px-6 py-24 md:px-10 md:py-40">
+    <Section id="about">
       <SectionHeader
         eyebrow="About"
         title="A little about me"
@@ -63,6 +64,6 @@ export function About() {
           </Reveal>
         ))}
       </div>
-    </section>
+    </Section>
   )
 }

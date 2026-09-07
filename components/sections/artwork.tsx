@@ -2,12 +2,13 @@
 
 import Image from 'next/image'
 import { ArrowUpRight } from 'lucide-react'
-import { AnimatePresence, motion } from 'motion/react'
-import { useEffect, useState } from 'react'
-import { Reveal } from '@/components/reveal'
-import { SectionHeader } from '@/components/section-header'
+import { AnimatePresence } from 'motion/react'
+import { useState } from 'react'
+import { ArtworkLightbox } from '@/components/overlays/artwork-lightbox'
+import { Reveal } from '@/components/shared/reveal'
+import { Section } from '@/components/shared/section'
+import { SectionHeader } from '@/components/shared/section-header'
 import { artworks } from '@/lib/portfolio-data'
-import { editorialEase } from '@/lib/motion'
 
 /*
  * Artwork — a visual/creative showcase gallery built from the images in
@@ -19,25 +20,8 @@ import { editorialEase } from '@/lib/motion'
 export function Artwork() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
 
-  useEffect(() => {
-    if (selectedIndex === null) return
-
-    const previousOverflow = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-
-    function handleKeyDown(event: KeyboardEvent) {
-      if (event.key === 'Escape') setSelectedIndex(null)
-    }
-
-    window.addEventListener('keydown', handleKeyDown)
-    return () => {
-      document.body.style.overflow = previousOverflow
-      window.removeEventListener('keydown', handleKeyDown)
-    }
-  }, [selectedIndex])
-
   return (
-    <section id="artwork" className="px-6 py-24 md:px-10 md:py-40">
+    <Section id="artwork">
       <SectionHeader
         eyebrow="Selected Visuals"
         title="Artworks"
@@ -102,54 +86,12 @@ export function Artwork() {
 
       <AnimatePresence>
         {selectedIndex !== null && (
-          <motion.div
-            key="artwork-lightbox"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.35, ease: editorialEase }}
-            className="fixed inset-0 z-80 flex items-center justify-center bg-white/95 p-6 md:p-12"
-            role="dialog"
-            aria-modal="true"
-            aria-label={`${artworks[selectedIndex].title} full-size artwork`}
-            onClick={() => setSelectedIndex(null)}
-          >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.96, y: 16 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.97, y: 8 }}
-              transition={{ duration: 0.45, ease: editorialEase }}
-              className="relative flex h-full min-h-0 w-full max-w-6xl flex-col rounded-[0.625rem] border bg-white shadow-2xl"
-              onClick={(event) => event.stopPropagation()}
-            >
-              {/* Image area — the artwork fills everything above the caption, never overlapped. */}
-              <div className="relative min-h-0 w-full flex-1 overflow-hidden">
-                <Image
-                  src={artworks[selectedIndex].image}
-                  alt={artworks[selectedIndex].title}
-                  fill
-                  className="object-contain"
-                  sizes="100vw"
-                  priority
-                />
-              </div>
-
-              {/* Caption sits BELOW the artwork instead of over the top of it. */}
-              <div className="flex flex-none items-end justify-between gap-4 border-t border-black/5 px-4 py-3">
-                <div>
-                  <p className="text-lg font-medium text-neutral-950">{artworks[selectedIndex].title}</p>
-                  <p className="font-mono text-xs uppercase tracking-widest text-neutral-600">
-                    {artworks[selectedIndex].category}
-                  </p>
-                </div>
-                <span className="font-mono text-xs uppercase tracking-widest text-neutral-600">
-                  Click outside to close
-                </span>
-              </div>
-            </motion.div>
-          </motion.div>
+          <ArtworkLightbox
+            artwork={artworks[selectedIndex]}
+            onClose={() => setSelectedIndex(null)}
+          />
         )}
       </AnimatePresence>
-    </section>
+    </Section>
   )
 }

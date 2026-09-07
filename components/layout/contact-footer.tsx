@@ -2,9 +2,10 @@
 
 import { ArrowUpRight } from 'lucide-react'
 import { profile, socials, contactEmail } from '@/lib/portfolio-data'
-import { Reveal } from '@/components/reveal'
-import { Marquee } from '@/components/marquee'
-import { SectionHeader } from '@/components/section-header'
+import { Marquee } from '@/components/shared/marquee'
+import { Reveal } from '@/components/shared/reveal'
+import { Section } from '@/components/shared/section'
+import { SectionHeader } from '@/components/shared/section-header'
 
 /*
  * Contact + footer.
@@ -17,7 +18,7 @@ export function ContactFooter() {
       {/* Infinite ticker inviting people to reach out */}
       <Marquee text="一緒に奇跡を起こそう！" />
 
-      <div className="px-6 py-24 md:px-10 md:py-40">
+      <Section as="div">
         <SectionHeader
           eyebrow="Contact"
           title="Let's talk"
@@ -71,7 +72,7 @@ export function ContactFooter() {
           <span>{profile.location} — / {profile.year} /</span>
           <span>Built with Next.js &amp; motion</span>
         </div>
-      </div>
+      </Section>
     </footer>
   )
 }

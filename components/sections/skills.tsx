@@ -1,8 +1,9 @@
 'use client'
 
 import { skillGroups, services } from '@/lib/portfolio-data'
-import { Reveal } from '@/components/reveal'
-import { SectionHeader } from '@/components/section-header'
+import { Reveal } from '@/components/shared/reveal'
+import { Section } from '@/components/shared/section'
+import { SectionHeader } from '@/components/shared/section-header'
 
 /*
  * Skills + Services. Two blocks:
@@ -11,7 +12,7 @@ import { SectionHeader } from '@/components/section-header'
  */
 export function Skills() {
   return (
-    <section className="px-6 py-24 md:px-10 md:py-40">
+    <Section>
       <SectionHeader
         eyebrow="Skill Sets"
         title="Tools of the trade"
@@ -59,6 +60,6 @@ export function Skills() {
           </Reveal>
         ))}
       </div>
-    </section>
+    </Section>
   )
 }

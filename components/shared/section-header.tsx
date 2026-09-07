@@ -1,4 +1,4 @@
-import { Reveal } from '@/components/reveal'
+import { Reveal } from '@/components/shared/reveal'
 
 export function SectionHeader({
   eyebrow,
